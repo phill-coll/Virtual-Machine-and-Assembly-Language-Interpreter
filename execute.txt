@@ -1,0 +1,20 @@
+[1] Executing: MOV 5, R1
+MOV 5 -> R1 = 00000101
+Registers: 00 05 00 00 00 00 00 00#
+Memory: Unchanged
+[2] Executing: ADD 6, R1
+Executed: + 6, R1 -> R1 = 11
+Registers: 00 11 00 00 00 00 00 00#
+Memory: Unchanged
+[3] Executing: MOV R1, R3
+MOV R1 -> R3 = 00001011
+Registers: 00 11 00 11 00 00 00 00#
+Memory: Unchanged
+[4] Executing: MUL R3, 4
+Executed: * R3, 4 -> R3 = 44
+Registers: 00 11 00 44 00 00 00 00#
+Memory: Unchanged
+[5] Executing: STORE R3, 20
+Stored R3 = 44 into memory[20]
+Registers: 00 11 00 44 00 00 00 00#
+Memory[20] = 44
